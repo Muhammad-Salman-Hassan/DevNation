@@ -30,7 +30,7 @@ const Profilediv = () => {
           {item.filter(search=>{
             if (input===" "){
               return search
-            }else if(search.firstName.includes(input)){
+            }else if(search.firstName.toLowerCase().includes(input.toString().toLowerCase())){
               return search
             }
             
