@@ -14,7 +14,7 @@ const Studentcard = ({ firstName, company, email, pic,skill,id}) => {
               <img src={pic} alt="" />
             </div>
           </div>
-          <div className="col-md-3 mx-5 my-4 bg-primary">
+          <div className="col-md-3 mx-5 my-4 ">
             <div className="title">
               <h1>Name:{firstName}</h1>
             </div>
@@ -33,8 +33,8 @@ const Studentcard = ({ firstName, company, email, pic,skill,id}) => {
             </div>
 
           </div>
-          <div className="col-md-5 bg-dark button-wrapper">
-            <div className="buttonContainer bg-primary button-div">
+          <div className="col-md-5  button-wrapper">
+            <div className="buttonContainer  button-div">
               <button onClick={()=>setopen(!open)}>kkkkkkkkk</button>
             </div>
           </div>
