@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #c77dff;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(278.12, 100%, 83%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(274.15, 100%, 75%) 0, transparent 55%);
+}
+.wrapper{
+    backdrop-filter: blur(23px) saturate(70%);
+    -webkit-backdrop-filter: blur(23px) saturate(70%);
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.image{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50px;
+}
+
+.card{
+    width: 40rem;
+    height: 20rem;
+    background-color: hsl(272, 63, 46);
+}
+.name{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+}
+.email{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}

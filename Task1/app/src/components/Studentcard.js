@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
+import  {AiOutlinePlus} from 'react-icons/ai';
 
 
 const Studentcard = ({ firstName, company, email, pic,skill,id}) => {
@@ -31,11 +32,13 @@ const Studentcard = ({ firstName, company, email, pic,skill,id}) => {
               <h5>Skill:{skill}</h5>
               
             </div>
-
+            
           </div>
           <div className="col-md-5  button-wrapper">
-            <div className="buttonContainer  button-div">
-              <button onClick={()=>setopen(!open)}>kkkkkkkkk</button>
+            <div className="buttonContainer button-div bg-dark">
+              <button onClick={()=>setopen(!open)}>
+                <AiOutlinePlus/>
+              </button>
             </div>
           </div>
         </div>
