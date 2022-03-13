@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    background-color: rgba(31, 30, 30, 0.965);
+    max-height: 100vh;
+}
+.container{
+    width: 60vw;
+    height:70vh ;
+    
+    
+    
+}
+.screen{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+@media(max-width:720px){
+    .container,.screen{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+}
+.bar{
+    display: flex;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.239);
+}
+.progressbar {
+width: 100%;
+}
+input#progressBar{
+    width: 80%;
+}
